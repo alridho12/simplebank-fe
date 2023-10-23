@@ -1,0 +1,54 @@
+.expensescard {
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.btnfilter {
+    background-color: transparent;
+    border: #F1F1F1 1px solid;
+    border-radius: 10px;
+}
+
+.cardmoneyinfo {
+    border: #F1F1F1 1px solid;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cardmoneyinfo:hover {
+    background-color: #4EB7F2;
+}
+
+.cardmoneyinfo:hover * {
+    color: #FFFFFF;
+}
+
+.moneycover {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+
+
+.moneywrapper {
+    width: 100%;
+    max-width: 40px;
+    aspect-ratio: 50/50;
+    position: relative;
+}
+
+.icon {
+    stroke: #4EB7F2 !important;
+}
+
+.icon:hover {
+    stroke: #FAFAFA !important;
+}
