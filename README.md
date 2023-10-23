@@ -1,9 +1,9 @@
 <br />
 <p align="center">
   <div align="center">
-    <img height="150" src="https://cdn.discordapp.com/attachments/1118733891738554480/1146038619325349898/logo-removebg-preview.png" alt="blanja" border="0"/>
+    <img height="150" src="https://cdn.discordapp.com/attachments/1133070686869524531/1165837955403882496/sb-transformed-removebg.png?ex=65484e34&is=6535d934&hm=54d50623867a98bfdddd5d9933e53b0a0add47fa1aab4607110f2ee8ce5269ce&" alt="blanja" border="0"/>
   </div>
-  <h3 align="center">Blanja</h3>
+  <h3 align="center">Simple Bank</h3>
   <p align="center">
     <a href="https://github.com/alridho12/backend_blanja"><strong>Explore the docs »</strong></a>
     <br />
