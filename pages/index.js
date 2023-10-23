@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import SideBar from '../components/sidebar/SideBar'
 import MainCard from '../components/maincard/MainCard'
+import HistoryCard from '../components/history/HistoryCard'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="row m-0">
         <SideBar/>
         <MainCard />
+        <HistoryCard />
       </main>
 
     

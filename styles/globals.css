@@ -31,6 +31,27 @@ p {
   padding: 0 0.75rem 0 0.75rem;
 }
 
+hr {
+  border: #F1F1F1 1px solid;
+}
+
+input{
+  width: 270px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  padding: 1rem;
+}
+
+.custom-margin {
+  margin-top: 4rem;
+}
+
+input::placeholder {
+  color: #AAAAAA;
+}
+
 * {
   box-sizing: border-box;
 }

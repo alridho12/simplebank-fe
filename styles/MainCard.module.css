@@ -34,6 +34,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 
@@ -51,4 +52,70 @@
 
 .icon:hover {
     stroke: #FAFAFA !important;
+}
+
+.invoicecard {
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.addwrapper {
+    width: 100%;
+    max-width: 25px;
+    aspect-ratio: 50/50;
+    position: relative;
+}
+
+.containerprofiles {
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    width: auto;
+    max-width: 260px;
+}
+
+.photoprofile {
+    position: relative;
+    width: 100%;
+    max-width: 50px;
+    aspect-ratio: 36/35;
+}
+
+.name {
+    color: #064061;
+    font-weight: 600;
+    font-size: clamp(10px, 1vw, 16px);
+}
+
+.email {
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: clamp(8px, 1vw, 12px);
+}
+
+.btnmount {
+    width: 270px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    color: #AAAAAA !important;
+}
+
+.btnsubmit {
+    width: 270px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4EB7F2;
+    color: #FFFFFF;
+}
+
+.btndetail {
+    width: 270px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #4EB7F2;
 }

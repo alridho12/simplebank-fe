@@ -27,13 +27,14 @@ const SideBar = () => {
             />
           </div>
           <div >
-            <p className={styles.name}>lekan okeowo</p>
-            <p className={styles.email}>demo@gmail.com</p>
+            <p className={styles.name}>Raja Al Ridho</p>
+            <p className={styles.email}>Rajaalridho@gmail.com</p>
           </div>
         </div>
         <div className={`mt-4 py-2 ${styles.containernavbutton}`}>
           <Image
             src={dashboard}
+            
           />
         </div>
       </div>
