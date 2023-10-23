@@ -3,11 +3,18 @@ import styles from '../../styles/History.module.css'
 import Image from 'next/image'
 import vector from '../../assets/image/vector.png'
 import emblem from '../../assets/image/emblem.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 const HistoryCard = () => {
+    useEffect(() => {
+        AOS.init()
+        AOS.refresh()
+    }, []);
+
     return (
-        <div className='col-4 ps-0'>
+        <div className='col-4 ps-0' data-aos="zoom-out" data-aos-duration="1500">
             <div className={`container my-4 py-4 ${styles.historycard}`}>
                 <h4 className='main-color fw-bold' style={{ margin: "0" }}>My card</h4>
                 <div className=' d-flex justify-content-center'>

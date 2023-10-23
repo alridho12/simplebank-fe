@@ -4,9 +4,18 @@ import logo from '../../assets/image/logo.png'
 import myprofile from '../../assets/image/myprofile.png'
 import dashboard from '../../assets/image/btndashboard.png'
 import Image from 'next/image'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
+
 const SideBar = () => {
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+}, []);
+
   return (
-    <div className={`col-2 p-0 ${styles.sidebar}`}>
+    <div className={`col-2 p-0 ${styles.sidebar}`} data-aos="zoom-out" data-aos-duration="1500">
       <div className='container'>
         <div className={`d-flex justify-content-center container ${styles.imagewrapper}`}>
           <Image

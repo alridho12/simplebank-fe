@@ -5,13 +5,18 @@ import money from '../../assets/image/money.svg'
 import wallet from '../../assets/image/wallet.svg'
 import add from '../../assets/image/add.svg'
 import Transaction from '../carousel/Transaction'
-
-
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 const MainCard = () => {
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+}, []);
+
   return (
-    <div className='col-6 p-0'>
+    <div className='col-6 p-0' data-aos="zoom-out" data-aos-duration="1500">
       {/* expenses */}
       <div className='container'>
         <div className={`my-4 py-4 ${styles.expensescard}`}>
