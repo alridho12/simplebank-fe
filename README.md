@@ -50,6 +50,7 @@ These are the libraries and service used for building this backend API
 - [Next.js](https://nextjs.org)
 - [Bootstrap](https://getbootstrap.com)
 - [Animate On Scroll](https://michalsnik.github.io/aos/)
+- [react-multi-carousel](https://www.npmjs.com/package/react-multi-carousel)
 
 # Installation
 
